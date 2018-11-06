@@ -12,6 +12,12 @@
 		48835BCC2191DF1B009F49C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48835BCA2191DF1B009F49C6 /* Main.storyboard */; };
 		48835BCE2191DF1F009F49C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48835BCD2191DF1F009F49C6 /* Assets.xcassets */; };
 		48835BD12191DF1F009F49C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48835BCF2191DF1F009F49C6 /* LaunchScreen.storyboard */; };
+		48835BDD2191E117009F49C6 /* nssl0045.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 48835BD82191E116009F49C6 /* nssl0045.jpg */; };
+		48835BDE2191E117009F49C6 /* nssl0041.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 48835BD92191E116009F49C6 /* nssl0041.jpg */; };
+		48835BDF2191E117009F49C6 /* nssl0051.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 48835BDA2191E117009F49C6 /* nssl0051.jpg */; };
+		48835BE02191E117009F49C6 /* nssl0042.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 48835BDB2191E117009F49C6 /* nssl0042.jpg */; };
+		48835BE12191E117009F49C6 /* nssl0091.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 48835BDC2191E117009F49C6 /* nssl0091.jpg */; };
+		48835BE32192047A009F49C6 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48835BE22192047A009F49C6 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		48835BCD2191DF1F009F49C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		48835BD02191DF1F009F49C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		48835BD22191DF1F009F49C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48835BD82191E116009F49C6 /* nssl0045.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0045.jpg; sourceTree = "<group>"; };
+		48835BD92191E116009F49C6 /* nssl0041.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0041.jpg; sourceTree = "<group>"; };
+		48835BDA2191E117009F49C6 /* nssl0051.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0051.jpg; sourceTree = "<group>"; };
+		48835BDB2191E117009F49C6 /* nssl0042.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0042.jpg; sourceTree = "<group>"; };
+		48835BDC2191E117009F49C6 /* nssl0091.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0091.jpg; sourceTree = "<group>"; };
+		48835BE22192047A009F49C6 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +66,14 @@
 		48835BC52191DF1B009F49C6 /* ImageViewer */ = {
 			isa = PBXGroup;
 			children = (
+				48835BD92191E116009F49C6 /* nssl0041.jpg */,
+				48835BDB2191E117009F49C6 /* nssl0042.jpg */,
+				48835BD82191E116009F49C6 /* nssl0045.jpg */,
+				48835BDA2191E117009F49C6 /* nssl0051.jpg */,
+				48835BDC2191E117009F49C6 /* nssl0091.jpg */,
 				48835BC62191DF1B009F49C6 /* AppDelegate.swift */,
 				48835BC82191DF1B009F49C6 /* ViewController.swift */,
+				48835BE22192047A009F49C6 /* DetailViewController.swift */,
 				48835BCA2191DF1B009F49C6 /* Main.storyboard */,
 				48835BCD2191DF1F009F49C6 /* Assets.xcassets */,
 				48835BCF2191DF1F009F49C6 /* LaunchScreen.storyboard */,
@@ -122,7 +140,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48835BDE2191E117009F49C6 /* nssl0041.jpg in Resources */,
+				48835BDF2191E117009F49C6 /* nssl0051.jpg in Resources */,
+				48835BDD2191E117009F49C6 /* nssl0045.jpg in Resources */,
+				48835BE02191E117009F49C6 /* nssl0042.jpg in Resources */,
 				48835BD12191DF1F009F49C6 /* LaunchScreen.storyboard in Resources */,
+				48835BE12191E117009F49C6 /* nssl0091.jpg in Resources */,
 				48835BCE2191DF1F009F49C6 /* Assets.xcassets in Resources */,
 				48835BCC2191DF1B009F49C6 /* Main.storyboard in Resources */,
 			);
@@ -135,6 +158,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48835BE32192047A009F49C6 /* DetailViewController.swift in Sources */,
 				48835BC92191DF1B009F49C6 /* ViewController.swift in Sources */,
 				48835BC72191DF1B009F49C6 /* AppDelegate.swift in Sources */,
 			);
