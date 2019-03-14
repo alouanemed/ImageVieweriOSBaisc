@@ -1,0 +1,30 @@
+PODS:
+  - QuickLayout (2.1.1)
+  - SCLAlertView (0.8)
+  - SwiftEntryKit (0.8.8):
+    - QuickLayout (= 2.1.1)
+  - SwiftMessages (6.0.2):
+    - SwiftMessages/App (= 6.0.2)
+  - SwiftMessages/App (6.0.2)
+
+DEPENDENCIES:
+  - SCLAlertView
+  - SwiftEntryKit (= 0.8.8)
+  - SwiftMessages
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - QuickLayout
+    - SCLAlertView
+    - SwiftEntryKit
+    - SwiftMessages
+
+SPEC CHECKSUMS:
+  QuickLayout: 9af2b7fd89a6552828f51a5aba28d1bcdb8b340c
+  SCLAlertView: 6a77bb2edfc65e04dbe57725546cb4107a506b85
+  SwiftEntryKit: c50f25a14772713ded1591c852d1c1dc74c95b9e
+  SwiftMessages: 8b3cc68dba2f1c91aac1a74c90b10287aac35371
+
+PODFILE CHECKSUM: 38ea4e58768f5e410c0889144e7ef2b1aea71108
+
+COCOAPODS: 1.7.0.beta.2
